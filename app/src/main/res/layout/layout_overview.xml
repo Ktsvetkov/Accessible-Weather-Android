@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overviewLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:focusable="true"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp" >
+    
+    <TextView android:id="@+id/dateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:focusable="true"
+        android:nextFocusDown="@+id/locationText"
+        style="@style/WeatherInfoOverlayText"/>
+
+    <TextView android:id="@+id/locationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateText"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/feelsLikeText"
+        android:nextFocusUp="@id/dateText"
+        style="@style/WeatherInfoOverlayText"/>
+
+    <RelativeLayout android:id="@+id/weatherLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <TextView android:id="@+id/feelsLikeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:focusable="true"
+            android:nextFocusUp="@id/locationText"
+            android:nextFocusDown="@+id/chanceOfRainText"
+            style="@style/WeatherInfoOverlayText"/>
+        <TextView android:id="@+id/chanceOfRainText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/feelsLikeText"
+            android:textSize="20sp"
+            android:focusable="true"
+            android:nextFocusUp="@id/feelsLikeText"
+            android:nextFocusDown="@+id/cloudConditionText"
+            style="@style/WeatherInfoOverlayText"/>
+        <TextView android:id="@+id/cloudConditionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chanceOfRainText"
+            android:textSize="20sp"
+            android:focusable="true"
+            android:nextFocusUp="@id/chanceOfRainText"
+            style="@style/WeatherInfoOverlayText"/>
+    </RelativeLayout>
+    
+</RelativeLayout>

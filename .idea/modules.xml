@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AccessibleWeather.iml" filepath="$PROJECT_DIR$/AccessibleWeather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parallaxviewpager-master/parallaxviewpager-master.iml" filepath="$PROJECT_DIR$/parallaxviewpager-master/parallaxviewpager-master.iml" />
+    </modules>
+  </component>
+</project>

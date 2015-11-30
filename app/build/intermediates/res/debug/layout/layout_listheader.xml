@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/headerText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textStyle="bold"
+    android:singleLine="true"
+    android:textSize="20sp"
+    android:paddingLeft="15sp"
+    android:paddingRight="15sp"
+    android:paddingTop="10sp"
+    android:paddingBottom="10sp">
+</TextView><!-- From: file:/Users/Kamenator/School/Cs/AccessibleWeather/WeatherApp/AccessibleWeather/app/src/main/res/layout/layout_listheader.xml -->

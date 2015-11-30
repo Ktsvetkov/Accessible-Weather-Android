@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/JEHOSHAPHAKSHAY/AndroidstudioProjects/AccessibleWeather/app/src/main/res/values/array.xml -->
+    <eat-comment/>
+    <string-array name="unitsChoices">
+        <item>Metric (meters, °C)</item>
+        <item>Imperial (inches, °F)</item>
+    </string-array>
+    <string-array name="unitsValues">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+    <!-- From: file:/C:/Users/JEHOSHAPHAKSHAY/AndroidstudioProjects/AccessibleWeather/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="DEFAULT_UNIT">metric</string>
+    <string name="DISPLAY_NOTIFICATION">display_notification</string>
+    <string name="HIGH_VISIBILITY_MODE">high_visibility_mode</string>
+    <string name="LAST_LAT">last_lat</string>
+    <string name="LAST_LON">last_lon</string>
+    <string name="LAST_UPDATE_DATE_KEY">last_update_date</string>
+    <string name="LATITUDE_KEY">latitude_key</string>
+    <string name="LOAD_MODE_FORCE_KEY">load_mode_force</string>
+    <string name="LONGITUDE_KEY">longitude_key</string>
+    <string name="MANUAL_LOCATION_KEY">manual_location</string>
+    <string name="NOTIFICATION_CONDITIONS_KEY">notification_conditions</string>
+    <string name="NOTIFICATION_CURRENT_TEMP_KEY">notification_current_temp</string>
+    <string name="NOTIFICATION_CURRENT_VISIBILITY_KEY">notification_current_visibility</string>
+    <string name="NOTIFICATION_SNOW_RAIN_DAY_KEY">notification_snow_rain_day</string>
+    <string name="NOTIFICATION_SUNRISE_KEY">notification_sunrise</string>
+    <string name="NOTIFICATION_SUNSET_KEY">notification_sunset</string>
+    <string name="NOTIFICATION_VARIATION_DAY_KEY">notification_variation_day</string>
+    <string name="NOTIFICATION_WIND_KEY">notification_wind</string>
+    <string name="NUMBER_OF_USES_KEY">use_no</string>
+    <string name="PLAY_SONIFICATIONS">play_sonifications</string>
+    <string name="SETUP_COMPLETED_KEY">setup_completion</string>
+    <string name="UNIT_KEY">units</string>
+    <string name="aboutAppDescString">Accessible Weather was developed to provide accurate and easy to access weather reports for sighted and visually impaired users.</string>
+    <string name="aboutGEONamesString">City lookup provided by Geonames,\nhttp://www.geonames.org/</string>
+    <string name="aboutIconsString">Icons provided by Merlin The Red,\nhttp://merlinthered.deviantart.com/</string>
+    <string name="aboutSonLabDescString">Accessible Weather was developed at the Sonification Lab at the Georgia Institute of Technology. Copyright Georgia Institute of Technology.</string>
+    <string name="aboutSonificationString">Take a look at the interesting things we are working on,\nhttp://sonify.psych.gatech.edu/</string>
+    <string name="aboutString">About</string>
+    <string name="aboutWeatherDataString">Weather data provided by Weather Underground,</string>
+    <string name="aboutWundergroundLinkString">(Logo links to www.wunderground.com)</string>
+    <string name="aboutWundergroundTM">Weather Underground is a registered trademark of The Weather Channel, LLC. both in the United States and internationally.
+        The Weather Underground Logo is a trademark of Weather Underground, LLC.</string>
+    <string name="action_search">Weather lookup</string>
+    <string name="app_name">Accessible Weather</string>
+    <string name="chanceOfRainString">Chance of rain:</string>
+    <string name="citySearchString">City or Airport Name</string>
+    <string name="clickToOpenString">Click to open or close section</string>
+    <string name="currentConditionsString">Conditions</string>
+    <string name="currentString">Current Metrics</string>
+    <string name="currentTemperatureString">Temperature</string>
+    <string name="currentVisibilityString">Visibility</string>
+    <string name="currentWindString">Wind direction and speed</string>
+    <string name="customizeNotificationString">Customize Notification</string>
+    <string name="display_app_name">Weather</string>
+    <string name="drawerCloseString">Close drawer</string>
+    <string name="drawerOpenString">Open drawer</string>
+    <string name="feedbackDescriptionString">Let us know what you think on Play Store</string>
+    <string name="feedbackString">Feedback</string>
+    <string name="forecastString">Forecasts</string>
+    <string name="goButtonString">Go</string>
+    <string name="helpCancelledString">Access help at any time from the menu drawer</string>
+    <string name="helpDescriptionString">The help section shows how to get around the application.</string>
+    <string name="helpLookupDetails">
+    Search for a city, airport or place name.\nOn confirmation of the search result, view the weather at that location.\nRecent searches show up directly on the menu drawer
+    </string>
+    <string name="helpLookupTitle">Weather Lookup</string>
+    <string name="helpMenuDetails">
+    The menu drawer can be opened by sliding it out from the left edge of the screen or by clicking the application icon.\nThe menu drawer provides additional options:\nLookup - Opens the Weather Lookup page\nRecent weather searches - Takes you directly to a recent weather lookup result
+    </string>
+    <string name="helpMenuTitle">Menu Drawer</string>
+    <string name="helpNavigationDetails">
+    The app consists of 4 screens. From left to right they are:\nWeather Today - Quick overview of the current weather\nDetailed - Detailed weather conditions\nNext 24 hours - Forecast for the next 24 hrs by the hour\nNext 10 days - Forecast for the next 10 days separated into day and night\nYou can move between the screens either by swiping or by clicking on their titles.\nYou can pull out the menu drawer from the left or by clicking on the app icon.\nThe menu drawer has additional options.
+    </string>
+    <string name="helpNavigationTitle">Navigation</string>
+    <string name="helpNotificationDetails">
+    This app displays a notification with the current weather. The notification updates periodically.\nThe notification can be turned off or customized by going into the settings which can be found in the menu drawer.
+    </string>
+    <string name="helpNotificationTitle">Weather Notification</string>
+    <string name="helpString">Help</string>
+    <string name="highLowDayString">Highs and Lows</string>
+    <string name="loadingLogoString">Loading weather data</string>
+    <string name="loadingString">Loading weather data…</string>
+    <string name="manualLocationActivityName">Use location</string>
+    <string name="manualLocationDescriptionString">We couldn\'t find you. Do you want to enter a location manually?</string>
+    <string name="manualLocationNoString">Quit</string>
+    <string name="manualLocationSettingsString">Force Location</string>
+    <string name="manualLocationString">Location not found</string>
+    <string name="manualLocationYesString">Enter Location</string>
+    <string name="manualOffSummary">Use the device\'s current location</string>
+    <string name="manualOnSummary">Use a fixed location</string>
+    <string name="noLocationString">No usable location</string>
+    <string name="notNowString">Not now</string>
+    <string name="notificationChangesConfirmationString">Your changes will take effect the next time the notification refreshes.</string>
+    <string name="notificationOffSummary">Display notifications</string>
+    <string name="notificationOnSummary">Turn off notifications</string>
+    <string name="notificationServiceString">Weather Notifications</string>
+    <string name="notificationSettingsString">Weather notification</string>
+    <string name="openHelpString">Open Help</string>
+    <string name="playStoreReviewString">Review (Play Store)</string>
+    <string name="previousSearchesString">Previous Searches</string>
+    <string name="searchingString">Searching</string>
+    <string name="settingMenuString">Menu</string>
+    <string name="snowRainDayString">Adverse Weather Forecasts</string>
+    <string name="sonificationsOffSummary">Use music cues</string>
+    <string name="sonificationsOnSummary">Turn off music cues</string>
+    <string name="sonificationsSettingsString">Sonifications</string>
+    <string name="sunriseTimeString">Sunrise</string>
+    <string name="sunsetTimeString">Sunset</string>
+    <string name="unitsSettingsString">Units</string>
+    <string name="unitsSettingsSummary">Change between metric and imperial</string>
+    <string name="visibilityOffSummary">Use a plain background</string>
+    <string name="visibilityOnSummary">Use colorful backgrounds</string>
+    <string name="visibilitySettingsString">Visibility mode</string>
+    <string name="weatherUndergroundString">Weather Underground</string>
+    <string name="wundergroundLogoDescriptionString">Powered by weather underground</string>
+    <!-- From: file:/C:/Users/JEHOSHAPHAKSHAY/AndroidstudioProjects/AccessibleWeather/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detailsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:focusable="true"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+    
+    <TextView android:id="@+id/detailsTemperatureText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:focusable="true"
+        android:nextFocusDown="@+id/detailsHumidityText"
+        style="@style/WeatherInfoOverlayText"/>
+    
+    <TextView android:id="@+id/detailsHumidityText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsTemperatureText"
+        android:layout_marginTop="15dip"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/detailsWindStringText"
+        style="@style/WeatherInfoOverlayText"/>
+    
+    <TextView android:id="@+id/detailsWindStringText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsHumidityText"
+        android:layout_marginTop="15dip"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/detailsPopText"
+        style="@style/WeatherInfoOverlayText"/>
+    
+    <TextView android:id="@+id/detailsPopText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsWindStringText"
+        android:layout_marginTop="15dip"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:text="@string/chanceOfRainString"
+        android:nextFocusDown="@+id/detailsPopDayText"
+        style="@style/WeatherInfoOverlayText"/>
+    
+    <TextView android:id="@+id/detailsPopDayText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsPopText"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="15dip"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/detailsPopNightText"
+        style="@style/WeatherInfoOverlayText"/>
+    
+    <TextView android:id="@+id/detailsPopNightText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsPopDayText"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="15dip"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/detailsPrecipitationText"
+        style="@style/WeatherInfoOverlayText"/>
+
+    <TextView android:id="@+id/detailsPrecipitationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsPopNightText"
+        android:layout_marginTop="15dip"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/detailsVisibilityText"
+        style="@style/WeatherInfoOverlayText"/>
+    
+    <TextView android:id="@+id/detailsVisibilityText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsPrecipitationText"
+        android:layout_marginTop="15dip"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/detailsSunriseText"
+        style="@style/WeatherInfoOverlayText"/>
+
+    <TextView android:id="@+id/detailsSunriseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsVisibilityText"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/detailsSunsetText"
+        style="@style/WeatherInfoOverlayText"/>
+
+    <TextView android:id="@+id/detailsSunsetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailsSunriseText"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:focusable="true"
+        style="@style/WeatherInfoOverlayText"/>
+
+</RelativeLayout>
