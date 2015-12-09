@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:key="@string/UNIT_KEY"
+        android:title="@string/unitsSettingsString"
+        android:dialogTitle="@string/unitsSettingsString"
+        android:entries="@array/unitsChoices"
+        android:entryValues="@array/unitsValues"
+        android:defaultValue="@string/DEFAULT_UNIT"
+        android:summary="@string/unitsSettingsSummary"/>
+    <CheckBoxPreference android:key="@string/HIGH_VISIBILITY_MODE"
+        android:title="@string/visibilitySettingsString"
+        android:summaryOff="@string/visibilityOffSummary"
+        android:summaryOn="@string/visibilityOnSummary"
+        android:defaultValue="false"/>
+    <CheckBoxPreference android:key="@string/PLAY_SONIFICATIONS"
+        android:title="@string/sonificationsSettingsString"
+        android:summaryOff="@string/sonificationsOffSummary"
+        android:summaryOn="@string/sonificationsOnSummary"
+        android:defaultValue="true"/>
+    <SwitchPreference android:key="@string/DISPLAY_NOTIFICATION"
+        android:title="@string/notificationSettingsString"
+        android:summaryOff="@string/notificationOffSummary"
+        android:summaryOn="@string/notificationOnSummary"
+        android:defaultValue="true">
+    </SwitchPreference>
+    <PreferenceScreen
+        android:title="@string/customizeNotificationString"
+        android:dependency="@string/DISPLAY_NOTIFICATION">
+        <CheckBoxPreference android:key="@string/NOTIFICATION_CONDITIONS_KEY"
+            android:title="@string/currentConditionsString"
+            android:defaultValue="true"/>
+        <CheckBoxPreference android:key="@string/NOTIFICATION_CURRENT_TEMP_KEY"
+            android:title="@string/currentTemperatureString"
+            android:defaultValue="true"/>
+        <CheckBoxPreference android:key="@string/NOTIFICATION_VARIATION_DAY_KEY"
+            android:title="@string/highLowDayString"
+            android:defaultValue="true"/>
+        <CheckBoxPreference android:key="@string/NOTIFICATION_WIND_KEY"
+            android:title="@string/currentWindString"
+            android:defaultValue="false"/>
+        <CheckBoxPreference android:key="@string/NOTIFICATION_CURRENT_VISIBILITY_KEY"
+            android:title="@string/currentVisibilityString"
+            android:defaultValue="false"/>
+        <CheckBoxPreference android:key="@string/NOTIFICATION_SUNRISE_KEY"
+            android:title="@string/sunriseTimeString"
+            android:defaultValue="false"/>
+        <CheckBoxPreference android:key="@string/NOTIFICATION_SUNSET_KEY"
+            android:title="@string/sunsetTimeString"
+            android:defaultValue="false"/>
+        <CheckBoxPreference android:key="@string/NOTIFICATION_SNOW_RAIN_DAY_KEY"
+            android:title="@string/snowRainDayString"
+            android:defaultValue="true"/>
+    </PreferenceScreen>
+    <SwitchPreference android:key="@string/MANUAL_LOCATION_KEY"
+        android:title="@string/manualLocationSettingsString"
+        android:summaryOff="@string/manualOffSummary"
+        android:summaryOn="@string/manualOnSummary"
+        android:defaultValue="true">
+    </SwitchPreference>
+</PreferenceScreen><!-- From: file:/Users/Kamenator/School/Cs/CS8803/AccessibleWeatherPublic/Accessible%20Weather/app/src/main/res/xml/preferences.xml -->
